@@ -2,8 +2,7 @@ node{
       
       stage('Checkout'){
          git 'https://github.com/rajnikhattarrsinha/java-tomcat-maven-example'
-      }
-  
+      }  
       stage('Build'){
          // Get maven home path and build
          def mvnHome =  tool name: 'Maven 3.5.4', type: 'maven'   
