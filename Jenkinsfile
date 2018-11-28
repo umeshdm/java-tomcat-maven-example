@@ -25,7 +25,6 @@ node{
          }
         sh 'docker push rajnikhattarrsinha/javademo:2.0.0'
       }
-
    stage('Stop running containers'){        
          def listContainer='sudo docker ps'
          def scriptRunner='sudo ./stopscript.sh'
