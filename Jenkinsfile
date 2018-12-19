@@ -29,7 +29,7 @@ node{
          def scriptRunner='sudo ./stopscript.sh'
          def stopContainer='sudo docker stop $(docker ps -a -q)'
          sshagent(['dockerdeployserver2']) {
-              sh "ssh -o StrictHostKeyChecking=no ubuntu@18.215.68.236 ${scriptRunner}"            
+              sh "ssh -o StrictHostKeyChecking=no ubuntu@35.168.86.36 ${scriptRunner}"            
          }
     } 
    stage('Pull Docker Image and Deploy'){        
@@ -37,7 +37,7 @@ node{
             def dockerContainerName = 'javasampledemo-$JOB_NAME-$BUILD_NUMBER'
             def dockerRun= "sudo docker run -p 8080:8080 -d --name ${dockerContainerName} rajnikhattarrsinha/javasampledemo:2.0.0"         
             sshagent(['dockerdeployserver2']) {
-              sh "ssh -o StrictHostKeyChecking=no ubuntu@18.215.68.236 ${dockerRun}"              
+              sh "ssh -o StrictHostKeyChecking=no ubuntu@35.168.86.36 ${dockerRun}"              
          }
    }
  }
