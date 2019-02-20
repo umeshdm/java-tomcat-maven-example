@@ -5,7 +5,7 @@
   <artifactId>java-tomcat-maven-example</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>Nissan CICD Pipeline View new</name>
+  <name>CICD Pipeline View</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -22,7 +22,7 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>java-tomcat-maven-example</finalName>
+    <finalName>java-tomcat-maven-example-demopipeline</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
