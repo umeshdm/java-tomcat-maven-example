@@ -30,7 +30,7 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>java-tomcat-maven-example-demo</finalName>
+    <finalName>java-tomcat-maven-example-demopipeline2102</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
