@@ -6,7 +6,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Reliance </title>
+    <title>Loves Cloud </title>
 
     <!-- Bootstrap core CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></link>
@@ -22,7 +22,7 @@
 	  max-width: 100%;
 	  min-height: 20%;
 	  min-width: 30%;
-	  background-image: url("Jio-Innovative-company.jpg");
+	  background-image: url("lc-demo.jpg");
 	background-size: contain;
 	background-repeat:no-repeat;
 	}
@@ -60,7 +60,7 @@
           </div>
         </div>
       </div>
-      <div class="navbar navbar-dark bg-dark box-shadow" style=" background-color:#f2f2f2!important;">
+     <!-- <div class="navbar navbar-dark bg-dark box-shadow" style=" background-color:#f2f2f2!important;">
         <div class="container d-flex justify-content-between">
           <a href="#" class="navbar-brand d-flex align-items-center">
 			<img src="RIL_Logo.png">
@@ -71,6 +71,7 @@
           </button>
         </div>
       </div>
+-->
     </header>
 
     <main role="main">
@@ -135,7 +136,9 @@
 			
 			</div>
 			</div>
-			<div>
+			
+	      <!--
+<div>
 		   <div class="navbar navbar-dark bg-dark box-shadow">
         <div class="container d-flex justify-content-between">
           <a href="#" class="navbar-brand d-flex align-items-center">
@@ -222,7 +225,7 @@
           </div>
         </div>
    
-
+-->
     </main>
 
     <footer class="text-muted">
