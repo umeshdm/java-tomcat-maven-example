@@ -22,7 +22,7 @@
 	  max-width: 100%;
 	  min-height: 20%;
 	  min-width: 30%;
-	  background-image: url("Capture-1.png");
+	  background-image: url("Capture-1.PNG");
 	background-size: cover;
 	background-repeat:no-repeat;
 	}
@@ -33,7 +33,7 @@
 	  max-width: 100%;
 	  min-height: 20%;
 	  min-width: 30%;
-	  background-image: url("Capture-2.png");
+	  background-image: url("Capture-2.PNG");
 	background-size: contain;
 	background-repeat:no-repeat;
 	}
@@ -44,7 +44,7 @@
 	  max-width: 100%;
 	  min-height: 20%;
 	  min-width: 30%;
-	  background-image: url("Capture-3.png");
+	  background-image: url("Capture-3.PNG");
 	background-size: contain;
 	background-repeat:no-repeat;
 	}
