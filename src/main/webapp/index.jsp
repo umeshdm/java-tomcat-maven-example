@@ -22,7 +22,7 @@
 	  max-width: 100%;
 	  min-height: 20%;
 	  min-width: 30%;
-	  background-image: url("lc-demo.jpg");
+	  background-image: url("lc-demo.png");
 	background-size: contain;
 	background-repeat:no-repeat;
 	}
