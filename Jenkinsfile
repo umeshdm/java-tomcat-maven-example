@@ -17,7 +17,7 @@ node{
                sh 'scp -o StrictHostKeyChecking=no target/*.war ubuntu@52.90.151.183:/home/ubuntu'
           }
           sshagent(['abeab169-3c7e-4291-98f3-7f190a3d4099']) {  
-                sh 'ssh -o StrictHostKeyChecking=no ubuntu@52.90.151.183 ${copyScript1}'
+                sh 'ssh -i StrictHostKeyChecking=no ubuntu@52.90.151.183 ${copyScript1}'
                 //sh 'ssh -o StrictHostKeyChecking=no ubuntu@52.90.151.183:/home/ubuntu/*.war ubuntu@52.90.151.183:/opt/tomcat/webapps/' 
                 //&& ${copyScript}'  
               // sh '${copyScript}'
