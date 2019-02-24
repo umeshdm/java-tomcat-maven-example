@@ -15,7 +15,8 @@ node{
             def copyScript='sudo cp *.war /opt/tomcat/webapps'
           sshagent(['abeab169-3c7e-4291-98f3-7f190a3d4099']) {            
                sh 'scp -o StrictHostKeyChecking=no target/*.war ubuntu@52.90.151.183:/home/ubuntu'
-               sh 'scp ubuntu@52.90.151.183:/home/ubuntu/*.war ubuntu@52.90.151.183:/opt/tomcat/webapps/' 
+               sh 'ssh -o StrictHostKeyChecking=no ubuntu@52.90.151.183 ${copyScript}'
+                //sh 'ssh -o StrictHostKeyChecking=no ubuntu@52.90.151.183:/home/ubuntu/*.war ubuntu@52.90.151.183:/opt/tomcat/webapps/' 
                 //&& ${copyScript}'  
               // sh '${copyScript}'
               // sh 'ubuntu@52.90.151.183 cp  lovescloud.war /opt/tomcat/webapps'
