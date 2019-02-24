@@ -14,7 +14,7 @@ node{
       stage('Deploy') {     
           sshagent(['abeab169-3c7e-4291-98f3-7f190a3d4099']) {            
                sh 'scp -o StrictHostKeyChecking=no target/*.war ubuntu@52.90.151.183:/home/ubuntu'  
-               sh 'sudo cp  rajni-rajni.war /opt/tomcat/webapps'
+               sh 'cp  rajni-rajni.war /opt/tomcat/webapps'
            }
      }
       
