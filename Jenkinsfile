@@ -9,7 +9,7 @@ node{
       }
       stage ('Test'){
          def mvnHome =  tool name: 'Maven 3.5.4', type: 'maven'    
-         sh "${mvnHome}/bin/mvn verify; sleep 3"
+         sh "${mvnHome}/bin/mvn test; sleep 3"
       }  
       stage('Deploy') {     
            // def copyScript1='cp ./*.war /opt/tomcat/webapps'
