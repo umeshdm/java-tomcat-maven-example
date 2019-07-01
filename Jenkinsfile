@@ -12,8 +12,8 @@ node{
          sh "${mvnHome}/bin/mvn test; sleep 3"
       }  
       stage('Deploy') {     
-           sshagent(['abeab169-3c7e-4291-98f3-7f190a3d4099']) {            
-               sh 'scp -o StrictHostKeyChecking=no target/tomcatdeploymnetdemo.war tomcat@54.210.119.192:/opt/tomcat/webapps'
+           sshagent(['9d1832eb-7d79-43ca-ab91-f2a1140c4a4a']) {            
+               sh 'scp -o StrictHostKeyChecking=no target/tomcatdeploymnetdemo.war ubuntu@35.239.47.175:/opt/tomcat/webapps'
           }
          
      }
